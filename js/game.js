@@ -11,7 +11,7 @@ const questionNumber = document.getElementById("Question-Number");
 const error = document.getElementById("error");
 
 const COREECT_BONUS = 5;
-const URL = " http://127.0.0.1:5000/results";
+const URL = "https://opentdb.com/api.php?amount=10&category=19&type=multiple";
 let formattedData = null;
 let questionindex = 0;
 let correctAnswer = null;
